@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: separate;
+            width: 80%;
+            height: 30vh;
+        }
+
+         th{
+            background-color: blueviolet;
+            padding:20px ;
+         }
+         td {
+            border-spacing: 10px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: aqua;
+        }
+        .co{
+            background-color: chartreuse;
+        }
+        #cc{
+            background-color: cornflowerblue;
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>shopping list </h1>
+        <ul>
+            <li>rice-1kg</li>
+            <li>fruits-apple</li>
+            <li>vegtables-potato</li>
+            <li>snacks- biscuits</li>
+        </ul>
+    </div>
+    <div>
+        <h1>steps list</h1>
+        <h3>steps to make coffee</h3>
+        <ol>
+            <li>boil water</li>
+            <li>add milk</li>
+            <li>add coffee powder</li>
+            <li>add sugar</li>
+            <li>take cup</li>
+            <li>serve hot</li>
+
+        </ol>
+    </div>
+    <div>
+        <h1> nested list</h1>
+        <h2>tea and coffee</h2>
+
+        <ul>
+            <li>tea
+                <ul>
+                    <li>green tea</li>
+                    <li>black tea</li>
+                    <li>gigger tea</li>
+                </ul>
+            </li>
+<br>
+            <li>coffee
+                <ul>
+                    <li>black coffee</li>
+                    <li> milk coffee</li>
+                    <li>filter coffee</li>
+                </ul>
+
+            </li>
+
+        </ul>
+    </div>
+
+    <div >
+        <table border="1" >
+            <tr>
+                <th rowspan="2">name</th>
+                <th colspan="2" >student detials</th>
+
+                <th rowspan="2"> mark</th>
+                
+                
+            </tr>
+            <tr>
+                <th>age</th>
+                <th>subject</th>
+            
+                
+            </tr>
+            <tr>
+                
+             <td>john</td>
+              <td>21</td>
+             <td>english</td>
+             <td>25</td>
+
+            </tr>
+            <tr>
+                <td>mani</td>
+                <td>30</td>
+                <td>tamil</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>dinesh</td>
+                <td>22</td>
+                <td>science</td>
+                <td>35</td>
+
+            </tr>
+            <tr>
+                <td  class="co" colspan="3" >total present</td>
+                <td id="cc">3</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
